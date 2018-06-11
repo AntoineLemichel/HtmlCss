@@ -1,60 +1,186 @@
-body 
+body
 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
-
 .header
 {
     background-color: #FA8072;
     text-align: center;
     color: white;
     width: 100%;
+    height: 8rem;
+    padding-top: 5%;
 }
 .firstList 
 {
-    width: 33%;
+    width: 27%;
+    display: inline-block;
+    margin-bottom: 3%;
+    margin-right: 2%;
+    background-color: #ECF0F1;
+    padding-right: 3%;
+    padding-bottom: 1%;
+    border-radius: 7px;
 }
 .secondList 
 {
-    width: 33%;
+    width: 27%;
     background-color: #ECF0F1;
+    display: inline-block;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    padding-bottom: 1%;
+    padding-right: 3%;
+    border-radius: 7px;
 }
 .threeList 
 {
-    width: 33%;
+    width: 27%;
     background-color: #ECF0F1;
+    display: inline-block;
+    margin-bottom: 3%;
+    padding-bottom: 1%;
+    padding-right: 3%;
+    border-radius: 7px;
 }
 .fourList
 {
-    width: 33%;
+    width: 27%;
     background-color: #ECF0F1;
+    display: inline-block;
+    margin-right: 2%;
+    padding-bottom: 1%;
+    padding-right: 3%;
+    border-radius: 7px;
 }
 .fiveList
 {
-    width: 33%;
+    width: 27%;
     background-color: #ECF0F1;
+    display: inline-block;
+    margin-right: 2%;
+    padding-bottom: 1%;
+    padding-right: 3%;
+    border-radius: 7px;
 }
 .sixList
 {
-    width: 33%;
+    width: 27%;
     background-color: #ECF0F1;
+    display: inline-block;
+    padding-bottom: 1%;
+    padding-right: 3%;
+    border-radius: 7px;
 }
 .container
 {
-    margin: 0 auto;
-    clear: both;
-    padding: 1%;
     text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    width: 80%;
 }
-.interieur
+.container h3
 {
-    background-color: #ECF0F1;
-    border-radius: 10px;
-    width: 105%;
-    padding: 2%;
+    font-size: 1.2rem;
+    padding-bottom: 5%;
 }
 #changeFond 
 {
     background-color: #D3D3D3;
 }
+footer
+{
+    background-color: #FA8072;
+    text-align: center;
+    color: white;
+    width: 100%; 
+    height: 8rem;
+    padding-top: 2%;
+}
+img 
+{
+    width: 5%;
+}
 
+
+@media screen and (max-width: 640px)
+{
+    body 
+    {
+        font-size: 1.2rem;
+    }
+    .firstList
+    {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .secondList
+    {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .threeList
+    {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .fourList
+    {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .fiveList
+    {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .sixList
+    {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+}
+@media screen and (min-width: 640px) and (max-width: 1280px)
+{
+    body 
+    {
+        font-size: 1.2rem;
+    }
+    .firstList
+    {
+        width: 40%;
+        margin-bottom: 5%;
+        margin-right: 5%;
+    }
+    .secondList
+    {
+        width: 40%;
+        margin-bottom: 5%;
+        margin-right: 5%;
+    }
+    .threeList
+    {
+        width: 40%;
+        margin-bottom: 5%;
+        margin-right: 5%;
+    }
+    .fourList
+    {
+        width: 40%;
+        margin-bottom: 5%;
+        margin-right: 5%;
+    }
+    .fiveList
+    {
+        width: 40%;
+        margin-bottom: 5%;
+        margin-right: 5%;
+    }
+    .sixList
+    {
+        width: 40%;
+        margin-bottom: 5%;
+        margin-right: 5%;
+    }
+}
