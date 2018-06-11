@@ -1,0 +1,60 @@
+body 
+{
+    font-size: 1.1rem;
+}
+
+.header
+{
+    background-color: #FA8072;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+.firstList 
+{
+    width: 33%;
+}
+.secondList 
+{
+    width: 33%;
+    background-color: #ECF0F1;
+}
+.threeList 
+{
+    width: 33%;
+    background-color: #ECF0F1;
+}
+.fourList
+{
+    width: 33%;
+    background-color: #ECF0F1;
+}
+.fiveList
+{
+    width: 33%;
+    background-color: #ECF0F1;
+}
+.sixList
+{
+    width: 33%;
+    background-color: #ECF0F1;
+}
+.container
+{
+    margin: 0 auto;
+    clear: both;
+    padding: 1%;
+    text-align: center;
+}
+.interieur
+{
+    background-color: #ECF0F1;
+    border-radius: 10px;
+    width: 105%;
+    padding: 2%;
+}
+#changeFond 
+{
+    background-color: #D3D3D3;
+}
+
